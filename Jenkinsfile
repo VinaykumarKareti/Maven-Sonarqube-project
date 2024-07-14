@@ -71,7 +71,7 @@ pipeline {
                         // Run SonarQube analysis
                         bat '''mvn sonar:sonar ^
                             -Dsonar.host.url=http://localhost:9000 ^
-                            -Dsonar.login=squ_71005741de717575dc717fc0ff274dfcda129cc1 ^
+                            -Dsonar.login=squ_08bc39a7733151c0e91892d78e06428c2211a197 ^
                             -Dsonar.projectName=vinaysonarproject2 ^
                             -Dsonar.java.binaries=target/classes ^
                             -Dsonar.projectKey=vinaysonarproject2'''
