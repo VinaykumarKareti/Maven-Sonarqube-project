@@ -72,9 +72,9 @@ pipeline {
                         bat '''mvn sonar:sonar ^
                             -Dsonar.host.url=http://localhost:9000 ^
                             -Dsonar.login=squ_71005741de717575dc717fc0ff274dfcda129cc1 ^
-                            -Dsonar.projectName=vinaysonarproject1 ^
+                            -Dsonar.projectName=vinaysonarproject2 ^
                             -Dsonar.java.binaries=target/classes ^
-                            -Dsonar.projectKey=vinaysonarproject1'''
+                            -Dsonar.projectKey=vinaysonarproject2'''
                     }
                 }
             }
